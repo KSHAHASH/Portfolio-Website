@@ -1,0 +1,296 @@
+.background-contact {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  border: 100px solid white;
+}
+
+@media (max-width:600px){
+    .background-contact{
+        border: none;
+    }
+}
+.firstParagraph {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 1px;
+  font-size: 20px;
+  margin-top: 1px;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+}
+@media (max-width: 600px) {
+  .firstParagraph {
+    font-size: 13px;
+
+  }
+}
+/* .flex-container-project {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  justify-content: center; 
+   border: 1px solid black; 
+  align-items: center;
+  background-color: white;
+  margin-bottom: 30px;
+  transform: translate3d(0, 0, 0);
+  transition: transform;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding-bottom: 1px;
+  padding-top: 1px; 
+ } */
+
+ /* container */
+.flex-items-project {
+  /* width: 100%; */
+  border: 1px solid black;
+  padding: 10px; /* Padding inside items */
+  text-align: center; /* Center text */
+  /* height: 500px;  */
+  border-radius: 8px;
+  border-color: lightgray;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+  color: #333;
+  transition: transform 0.2s ease;
+  font-size: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  
+  
+  
+}
+
+@media (max-width: 600px) {
+  .flex-items-project {
+    width: 290px;
+    margin-top: 1px;
+    height: 655px;
+    margin: 0 auto; /* Centers the container */
+  }
+}
+
+.project-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .project-heading {
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 6px;
+  }
+}
+
+.para-flex-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+  
+}
+.flex-description-items {
+  font-size: 16px;
+  /* font-weight: bold; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  .flex-description-items {
+    font-size: 13px;
+  }
+}
+
+.flex-items-project:hover {
+  transform: scale(1.05); /* Slightly scale up the item on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.flex-container-project-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 1px solid #ccc; Base border color */
+  border-radius: 8px; /* Rounded corners */
+  height: 200px;
+  /* width: 100%; */
+  gap: 10px;
+  background-color: #f9f9f9; /* Optional background for better contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  padding: 10px; /* Optional padding inside the container */
+  margin-bottom: 20px;
+
+}
+@media (max-width:600px){
+  .flex-container-project-images{
+    margin-bottom: 5px;
+    width: ;
+  }
+}
+
+.flex-container-project-images:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly increase shadow on hover */
+  transform: scale(1.02); /* Small scale up on hover for visual feedback */
+}
+
+.firstImageCard,
+.secondImageCard,
+.thirdImageCard,
+.fourthImageCard {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex: 1; */
+  overflow: hidden; /* Prevents overflow of images */
+  align-self: stretch;
+  /* border:4px solid black; */
+  object-fit: contain;
+}
+.firstImageCard img,
+.secondImageCard img,
+.thirdImageCard img,
+.fourthImageCard img {
+  width: 100%; /* Ensures images don't exceed container width */
+  height: 100%; /* Ensures images don't exceed container height */
+  object-fit: contain; /* Maintains aspect ratio and fits within the container */
+  border-radius: 0px; /* Optional: Adds rounded corners to the images */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+  
+}
+
+/* @media (max-width:600px){
+  .
+} */
+
+.iconImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  gap: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+}
+
+@media (max-width:600px){
+    /* .iconImages{
+
+    } */
+}
+
+.flex-github-container,
+.flex-laptop-container {
+  display: flex;
+  /* border: 10px solid black; */
+  margin-top: 10px;
+  height: 50px;
+  /* width: 100%; */
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  /* border: 2px solid #ccc; */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+   
+}
+@media (max-width: 600px) {
+  .flex-github-container,
+  .flex-laptop-container {
+    height: 50px;
+    /* width: 50px; */
+    margin-top: 30px;
+    width: 50px;
+    margin-left: 3px;
+    
+    
+  }
+}
+.flex-inner-github-container,
+.flex-inner-laptop-container {
+height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.flex-inner-github-container img,
+.flex-inner-laptop-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s ease; /* Smooth scaling on hover */
+}
+.flex-inner-github-container:hover img,
+.flex-inner-laptop-container:hover img {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+.image-hover-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* Text hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+.image-hover-text:hover {
+  opacity: 1; /* Show text on hover */
+}
+
+/* .flex-container-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.flex-items-button { */
+  /* border-radius: 8px; */
+  /* border-color: lightgray; */
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+  /* color: #333; */
+  /* transition: transform 0.2s ease; */
+  /* font-size: 15px;
+  font-weight: bold;
+  width: 130px;
+  height: 50px;
+} */
+/* @media (max-width: 600px) {
+  .flex-items-button {
+    width: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+} */
+/* .button-style{
+    height: 40px;
+} */
