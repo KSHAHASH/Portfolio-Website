@@ -4,7 +4,7 @@ import appalachian from "../images/experience/appalachian.webp";
 import jackson from "../images/experience/jackson.png";
 import takeo from "../images/experience/takeo.png";
 import wallace from "../images/experience/wallace.png"
-const Research = () => {
+const Experience = () => {
   const languages = [
     "JavaScript",
     "Kotlin",
@@ -135,4 +135,4 @@ const Research = () => {
   );
 };
 
-export default Research;
+export default Experience;

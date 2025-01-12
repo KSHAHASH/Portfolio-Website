@@ -28,26 +28,26 @@ const Home = () => {
       </div>
 
       <div className="flex_paragraphs">
-        <Link className="circle" to="/resume">
-          Resume
+        <Link className="circle" to="/home" style={{paddingLeft:"15px"}}>
+          Home
         </Link>
         <Link
           className="circle"
-          style={{ backgroundColor: "#FF8C00", paddingLeft: "20px" }}
+          style={{ backgroundColor: "#FF8C00", paddingLeft: "15px" }}
           to="/projects"
         >
           Projects
         </Link>
         <Link
           className="circle"
-          style={{ backgroundColor: "#006400" }}
-          to="/research"
+          style={{ backgroundColor: "#006400", paddingLeft:"10px" }}
+          to="/experience"
         >
-          Research
+          Experience
         </Link>
         <Link
           className="circle"
-          style={{ backgroundColor: "#00008B", paddingLeft: "20px" }}
+          style={{ backgroundColor: "#00008B", paddingLeft: "15px" }}
           to="/contact"
         >
           Contact
