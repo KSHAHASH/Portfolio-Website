@@ -137,6 +137,20 @@ const Projects = () => {
       githubUrl:"https://github.com/KSHAHASH/HackerNews",
       deployedUrl:"https://newsapp-adcd8.firebaseapp.com/"
     },
+    {
+      id: 6,
+      title: "RESTful API for Registration and Authentication",
+      descriptionFirst: `i). Developed a RESTful API, containerized with Docker, and used Google Cloud Run for continuous deployment.`,
+      descriptionSecond: `ii). Used JWT as a middleware for creating authenticated endpoints, bcrypt for password hashing.`,
+      descriptionThird: `iii). Utilized MongoDB and Mongoose for database management, schema creation and data querying. `,
+      imageFirst: newsFirst,
+      imageSecond: newSecond,
+      imageThird: newsThird,
+      imageFourth: newsFourth,
+      githubUrl:"https://github.com/KSHAHASH/REST-API-Registration-Login-Authentication-JWT",
+      deployedUrl:"https://github.com/KSHAHASH/REST-API-Registration-Login-Authentication-JWT"
+
+    }
   ];
 
   const forwardButton = () => {
